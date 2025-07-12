@@ -1,6 +1,4 @@
-import { type } from "os";
 import mongoose from mongoose;
-import { timeStamp } from "console";
 
 const bookSchema = new mongoose.Schema({
     title: {
